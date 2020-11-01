@@ -1,0 +1,28 @@
+{
+  "name": "tour",
+  "version": "1.0.0",
+  "description": "Tour Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "live-server --watch='*.html,*.css,*.jpg'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewonye/Tour.git"
+  },
+  "keywords": [
+    "tour",
+    "website",
+    "navitour"
+  ],
+  "author": "Khadijah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ewonye/Tour/issues"
+  },
+  "homepage": "https://github.com/Ewonye/Tour#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

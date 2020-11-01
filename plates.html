@@ -4,24 +4,45 @@
 <title>Navitour</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body >
-<h1  style=" font-size:500%; color: rgb(19, 18, 20); margin:50px 0px; "> <b>NAVITOUR</b></h1>
-    <div class="login" style="padding: right; position:fixed; right:80px; top:20px;" >
-      <img src="icon.jpg" class="icon">
-        <form action="/action_page.php"></form> 
+<body>
+  <!-- If the inline styles are more than 2, move them into a .class; but as a good practice desist from using inline styles -->
+<!-- <h1 style="font-size:500%; color: rgb(19, 18, 20); margin:50px 0px; "> <b>NAVITOUR</b></h1> -->
+<h1  class="logo-text"> 
+  <!-- The b tag wrapping around the text is unecessary. The h1, h2, ... h6 tags by default will make the text BOLD -->
+  <!-- <b>NAVITOUR</b> -->
+  NAVITOUR
+</h1>
+  <div class="login" style="position:fixed; right:80px; top:20px;" >
+    <img src="icon.jpg" class="icon">
+      <form action="/action_page.php">
+        <div class="email">
           <label for="ename"><b>E-mail</b></label>
           <input type="text" id="ename" name="email" placeholder="Enter email.." >
-
+        </div>
+        <div class="password">
           <label for="pname" ><b>Password</b></label>
           <input type="text" id="pname" name="password" placeholder="Enter password.." >
-          <a href="#">forgot password?</a><br>
-          <input type="signIn" value="SignIn" style="align-content: center;">
-        </form>
-          <h2 style="text-align: right; font-size:120%; color: antiquewhite;"> <b>New here?</b> <input type="signUp" value="SignUp"></h2>
-        
-       
-      </div> 
-      <p style=" font-size:250%; color: rgb(19, 18, 20); margin:100px 0px; text-align: center;">Tour at the comfort of your home</p>   
+        </div>
+        <a href="#">forgot password?</a><br>
+        <input type="signIn" value="SignIn" style="align-content: center;">
+      </form>
+      <!-- If the inline styles are more than 2, move them into a .class; but as a good practice desist from using inline styles -->
+        <!-- <h2 style="text-align: right; font-size:120%; color: antiquewhite;"> 
+          <b>New here?</b> 
+          <input type="signUp" value="SignUp">
+        </h2> -->
+        <h2 class="new-here"> 
+          <!-- The b tag is not necessary, because by default the h1, h2, ..., h6 tags will make the text BOLD -->
+          <!-- <b>New here?</b>  -->
+            New here?
+          <input type="signUp" value="SignUp">
+        </h2>
+      
+     
+    </div>
+    <!-- If the inline styles are more than 2, move them into a .class -->
+    <!-- <p style=" font-size:250%; color: rgb(19, 18, 20); margin:100px 0px; text-align: center;">Tour at the comfort of your home</p>   --> 
+    <p class="banner-text">Tour at the comfort of your home</p>   
 </body>
 </html>
 
