@@ -1,8 +1,7 @@
 body {
-    background-image: url('forig.JPG');     
-      background-size: cover;
-      font-size: larger;
-      margin-top: 10px;; }
+    background-image: url('ele.jpg');     
+    background-size: cover;
+}
 
       .topContainer {
   position: top right ;
@@ -43,13 +42,13 @@ body {
   }
   input[type=Signup] {
     width: 70px;
-    background-color: #dd0f0f;
-    color: rgb(207, 231, 219);
+    background-color: #0f3fdd;
+    color: white;
     padding-right: 20px;
     padding-left: 20px;
     margin-left: 150px;
     margin-top: 1px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
