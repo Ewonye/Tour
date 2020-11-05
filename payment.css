@@ -1,15 +1,8 @@
-body {
-    background-image: url('bree.jpg');     
-      background-size: cover;
-      margin:50px 0px; padding:40px;
-  }
-
-
-div.payment {
+/*div.payment {
     align-items: center;
     align-self: center;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.644);
+    background-color: #45454556;
     margin-top: 15px;
     padding: 10px;
     height: 500px;
@@ -19,7 +12,7 @@ div.payment {
 align-self: right;
 text-rendering: auto;
 letter-spacing: normal;
-background-color:white;
+background-color:wheat;
  word-spacing: normal;
    margin: 12px 65px;
    width: fit-content;
@@ -33,10 +26,10 @@ background-color:white;
 }
 input[type=Signin] {
     width: 100px;
-  background-color: #3976d3f6;
+  background-color: #18ca1e;
   color: rgb(20, 22, 21);
   padding: 10px 30px;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-left: 120px;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -52,15 +45,86 @@ input[type=Signin]:hover {
 
   div.card{
       font-size: 22px;
-      text-align: center;
   }
 
   div.expiry{
     font-size: 22px;
-    text-align: center;
 }
 div.momo{
     font-size: 22px;
-    margin-top: 15px;
+}*/
+
+body {
+  background-image: url('bree.jpg');     
+    background-size: cover;
+    margin:50px 0px; padding:40px;
+}
+
+
+div.payment {
+  align-items: center;
+  align-self: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.644);
+  margin-top: 15px;
+  padding: 10px;
+  height: 500px;
+  width: 400px;
+}
+.payment input{
+align-self: right;
+text-rendering: auto;
+letter-spacing: normal;
+background-color:white;
+word-spacing: normal;
+ margin: 12px 65px;
+ width: fit-content;
+ border-radius: 10px;
+ font-size: 19.5px;
+    font-weight: bold;
+    cursor: pointer;
+     padding: 10px 10px 10px 10px;
+    border-image: initial;
+    display: inline-block;
+
+}
+input[type=Signin] {
+  width: 100px;
+background-color: #3976d3f6;
+color: rgb(20, 22, 21);
+padding: 10px 30px;
+margin-top: 40px;
+margin-left: 120px;
+border: 1px solid #ccc;
+border-radius: 10px;
+cursor: pointer;
+font-weight: bold;
+font-size: large;
+align-self: center;
+text-align: center;
+}
+input[type=Signin]:hover {
+  background-color: blue;
+}
+
+div.card{
+    font-size: 22px;
     text-align: center;
+}
+
+div.expiry{
+  font-size: 22px;
+  text-align: center;
+}
+div.momo{
+  font-size: 22px;
+  margin-top: 15px;
+  text-align: center;
+}
+input[type="number"]{
+  -moz-appearance:textfield;
+  ;
+}::-webkit-inner-spin-button,
+::-webkit-outer-spin-button{
+  -webkit-appearance: none ;
 }
