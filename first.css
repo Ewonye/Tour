@@ -36,7 +36,7 @@ body {
       input[type=Signin]:hover {
         background-color: blue;
       }
-      /*input[type=Signup] {
+      input[type=Signup] {
         width: 70px;
         background-color: #dd0f0f;
         color: rgb(207, 231, 219);
@@ -50,7 +50,7 @@ body {
       }
         input[type=Signup]:hover {
             background-color:blue;
-          }*/
+          }
           
           div.login {
             align-items: center;
