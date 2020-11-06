@@ -3,7 +3,7 @@
 body {
   background-image: url('green.jpg');     
     background-size: cover;
-    margin:50px 0px; padding:40px;
+    margin:0px 0px; padding:0px;
 }
 
     input[type=text], select {
@@ -15,15 +15,15 @@ body {
       border: 1px solid #ccc;
       border-radius: 10px;
       box-sizing: border-box;
-      
+    
       align-self: right;
     }
  
      
     input[type=Signin] {
-      width: 100px;
-      background-color: #27d32d;
-      color: rgb(20, 22, 21);
+      width: 150px;
+      background-color: #2964b3;
+      color: white;
       padding: 10px 30px;
       margin: 5px 100px;
       border: 1px solid #ccc;
@@ -36,10 +36,10 @@ body {
     }
     
     input[type=Signin]:hover {
-      background-color: green;
+      background-color: #2a65ad7c;
     }
     input[type=Signup] {
-      width: 65px;
+      width: 105px;
       background-color: #dd0f0f;
       color: rgb(243, 241, 241);
       padding: 10px 20px;
@@ -93,16 +93,68 @@ font-size:120%;
   color: antiquewhite;
 }
 body .banner-text {
-font-size:250%;
-color: rgba(19, 18, 20, 0.74);
-margin:100px 50px;
-text-align: center;
-position: relative;
-bottom: -150px;
-}
-body .logo-text {
-font-size:500%; 
-color: rgb(19, 18, 20); 
-margin:50px 0px; 
+  font-size:250%;
+  color: rgba(19, 18, 20, 0.993);
+  margin:50px 50px;
+  text-align: left;
+  position: relative;
+  bottom: -50px;
+  }
 
+.menubar ul {
+  display: inline-flex;
+  list-style: none;
+  color: black;
+  bottom: 10px;
+  
+}
+.menubar ul li {
+  width:120px;
+  margin: 15px;
+  padding: 15px;
+ 
+}
+.menubar ul li a{
+  text-decoration: none;
+  color: black;
+}
+.active, .menubar ul li:hover{
+  background: rgb(75, 148, 197);
+  border-radius: 3px;
+  
+}
+.menubar fa{
+margin-right: 8px;
+}
+.sub-menu-l{
+  display: none;
+}
+.menubar ul li:hover  .sub-menu-l{
+  display: block;
+  position: absolute;
+  background: rgb(35, 114, 216);
+  margin-top: 15px;
+  margin-left: -15px;
+  width: 150px;
+}
+.menubar ul li:hover  .sub-menu-l ul{
+  display: block;
+  margin: 10px;
+  
+}
+.menubar ul li:hover  .sub-menu-l ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+  
+}
+.menubar ul li:hover  .sub-menu-l ul li:last-child{
+border-bottom: none;
+}
+.menubar ul li:hover  .sub-menu-l ul li a:hover
+{
+  color: white;
 }
