@@ -1,46 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NAVITOUR</title>
-    
-    <link rel="stylesheet" href="./first.css">
-   <link rel="stylesheet" href=".">
-   <link rel="stylesheet" href=".">
+<title>Navitour</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+  <video autoplay muted loop id="myVideo">
+    <source src="lake Bosomtwe.mkv" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+ 
+  <div class="menubar">  
+    <header class="header" role="banner"></header>
+    <ul>
+    <li><a href="#"><i class="fa fa-user"></i>About us</a>
+    <div class="sub-menu-l">
+      <ul>
+        <li><a href="#">Mission</a></li>
+        <li><a href="#">Team</a></li>
+      </ul>
+    </div>
+  </li>
+    <li><a href="#"><i class="fa fa-phone"></i>Contact us</a></li>
+  </ul>
+</div>
+ 
+    <div class="login" style=" position:fixed; right:80px; top:20px;" >
+      <img src="icon.jpg" class="icon">
+      <form action="/action_page.php">
+        <div class="email"> 
+          <label for="ename"><b>E-mail</b></label>
+          <input type="text" id="ename" name="email" placeholder="Enter email.." >
 
-</head >
-<body background = 'green.jpg'; background-size:cover; no-repeat center fixed; >
-    <h1  class="logo-text"></h1>
- <p class="topContainer"><img src="./LOGO.JPG" height="22px"> NAVITOUR LOGO</p></div>
-      
-</h1>
-  <div class="login" style="position:fixed; right:80px; top:20px;" >
-    <img src="icon.jpg" class="icon">
-      <form action="/action_page.php" >
-        <div class="email">
-          <label for="ename"><b>Username    </b></label>
-          <input type="text" id="ename" name="Email" placeholder="Enter username.." >
-        </div>
-        <div class="password">
           <label for="pname" ><b>Password</b></label>
-          <input type="text" id="pname" name="Password" placeholder="Enter password.." >
+          <input type="text" id="pname" name="password" placeholder="Enter password.." >
         </div>
-        <a href="#" >Forgot password?</a><br>
-        <a href="./payment.html" target="_parent" >  
-          <button input type="signin" value="Sign In" style="align-content: center;"
-          form action="/action_page2.php" > Sign In </button>
+          <a href="#">forgot password?</a><br>
+          <input type="signIn" value="SignIn" style="align-content: center;">
         </form>
-        </a>   
-      <h2 class="new-here">
-        New here?
-         <a href="./signup.html" target="_parent" > 
-          <button input type="signup" value="Sign Up" style="align-content: center;"> Sign Up
-        </button> </a>
-      </form></div> 
-      </h2> 
-  <p class="banner-text">Welcome to NAVITOUR <br><br>
-    <br> Tour at the comfort of your home</p>   
-</body>
+        <h2 class="new-here"> New here?
+          <input type="signUp" value="SignUp">
+          </h2>
+        
+       
+      </div> 
+      <p class="banner-text">Welcome to NAVITOUR <br>
+        <br> Tour at the comfort of your home</p>   
+       
 
+         
+
+</body>
 </html>
+
+
+
+
+   

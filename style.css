@@ -1,9 +1,18 @@
 
   
-body {
-  background-image: url('green.jpg');     
-    background-size: cover;
-    margin:0px 0px; padding:0px;
+
+#myVideo {
+  background-size: cover;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  
+}
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
     input[type=text], select {
@@ -158,3 +167,56 @@ border-bottom: none;
 {
   color: white;
 }
+
+
+
+img {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto;
+}
+img {
+  vertical-align:middle;
+  border-style: none;
+}
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img{
+  width: 451px;
+  height: 451px;
+  
+}
+.h5 mb-1 {
+  text-align: center;}
+
+.card   {
+  -webkit-box-direction: normal;
+  
+} 
+
+figure{
+  margin: 0 0 1rem;
+}
+
+.section-img text-center mb-2{
+float: left;   display: inline;
+padding-right: -500;
+padding-left: 0px;
+margin-right: -500;
+
+}
+.column-text mt-1{
+  text-align: center;
+  font-size: large;
+  
+}
+
+
+/*target="_blank"
+text-center
+
+
+!important*/
