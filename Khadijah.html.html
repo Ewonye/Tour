@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Navitour</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="team.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body> 
+ 
+  <nav class="navtop">
+   <a href="#home" class="Navi">NAVITOUR</a>
+			<div>
+				<h1></h1>
+                <a href="{{ url_for('home') }}"><i class="fa fa-home"></i>Home</a>
+				<a href="{{ url_for('profile') }}"><i class="fa fa-user-circle"></i>Profile</a>
+				<a href="{{ url_for('logout') }}"><i class="fa fa-sign-out-alt"></i>Logout</a>
+    <a href="#"><i class="fa fa-user"></i>About us</a>
+        <a href="#">Mission</a>
+        <a href="#">Team</a>
+    <a href="#"><i class="fa fa-phone"></i>Contact us</a>
+
+
+			</div>
+		</nav> 
+ 
+  
+ 
+    <div class="login" style=" position:fixed; right:80px; top:100px;" >
+      
+      <form action="/action_page.php">
+        <div class="email"> 
+          <label for="ename"><b>E-mail</b></label>
+          <input type="text" id="ename" name="email" placeholder="Enter email.." >
+
+          <label for="pname" ><b>Password</b></label>
+          <input type="text" id="pname" name="password" placeholder="Enter password.." >
+        </div>
+          <a href="#">forgot password?</a><br>
+          <input type="signIn" value="SignIn" style="align-content: center;">
+        </form>
+        <h2 class="new-here"> New here?
+          <input type="signUp" value="SignUp">
+          </h2>
+        
+       
+      </div> 
+      <p class="banner-text">Welcome to NAVITOUR <br>
+        <br> Tour at the comfort of your home</p>  
+        <hr> 
+       <!-- Team Section -->
+ <h1 style="text-align:center">Our Team</h1>
+  
+  <div class="row column-row">
+    <div class="section-col3 col-lg-4 d-flex ">
+      <section class="card card-column bg-transparent rounded-0 border-0 align-items-stretch w-100 pos-rel">
+        <section class="card-body pb-1 pos-rel z-4" style="opacity: 1;">
+                            <figure class="section-img text-center mb-2"><img width="600" height="600" src="./Godsway.jpg" sizes="(max-width: 600px) 100vw, 600px"></figure>
+                                            <div class="column-text mt-1"><h4 class="h5 mb-1">Godsway Alorsor</h4>
+<p>Co Founder and Web Developer</p>
+<ul>
+<li><a href="mailto:alorsorgodway@gmail.com">
+  <p>alorsorgodsway@gmail.com</p></a></li>
+</ul>
+<p><a href="tel:+233241524689">
+  <p><button class="button">Contact</button></p>
+</a></span></a></p>
+</div>
+                        </section>
+                    </section>
+    </div>
+
+    <div class="section-col3 col-lg-4 d-flex ">
+      <section class="card card-column bg-transparent rounded-0 border-0 align-items-stretch w-100 pos-rel">
+        <section class="card-body pb-1 pos-rel z-4" style="opacity: 1;">
+                            <figure class="section-img text-center mb-2"><img width="600" height="600" src="./Dija.jpg"  sizes="(max-width: 600px) 100vw, 600px"></figure>
+                                            <div class="column-text mt-1"><h4 class="h5 mb-1">Khadija Ewonye Yakubu</h4>
+<p>Co Founder and Web Developer</p>
+<ul>
+<li><a href="mailto:ydkhadijah@gmail.com">
+  <p>ydkhadijah@gmail.com</p></a></li>
+</ul>
+<p><a href="tel:+233241524689">
+  <p><button class="button">Contact</button></p>
+</a></span></a></p>
+</div>
+                        </section>
+                    </section>
+    </div>
+
+         
+
+</body>
+</html>
+
+
+
+
+   
